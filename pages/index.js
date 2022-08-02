@@ -1,10 +1,10 @@
 import Head from 'next/head';
-import Image from 'next/image';
 import axios from 'axios';
 import Weather from '../components/Weather';
+import Footer from '../components/Footer';
 import { useState } from 'react';
-import { BsFillCloudsFill, BsSearch } from 'react-icons/bs';
-import { AiOutlineSearch } from 'react-icons/ai';
+import { BsFillCloudsFill, BsGlobe } from 'react-icons/bs';
+import { AiOutlineSearch, AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 import Spinner from '../components/Spinner';
 
 export default function Home() {
@@ -66,6 +66,9 @@ export default function Home() {
           </div>
 
           {weather.main && <Weather data={weather} />}
+        </div>
+        <div className="fixed bottom-0 mb-14 text-lg text-[#8B939C]">
+          <Footer />
         </div>
       </div>
     );
