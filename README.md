@@ -4,4 +4,4 @@
 
 ### A simple weather fetching app using Next.js and Open Weather API<br><br>
 
-A live demo of the project is hosted here: on <b>Vercel<b>
+A live demo of the project is hosted here: https://nextjs-weather-five.vercel.app/ on <b>Vercel<b>
