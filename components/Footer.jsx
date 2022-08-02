@@ -6,10 +6,10 @@ import Link from 'next/link';
 const Footer = () => {
   return (
     <div>
-      <div>
-        <p>Chris McConnell &copy; 2022</p>
+      <div className="flex flex-col">
+        <p className="my-4">Chris McConnell &copy; 2022</p>
       </div>
-      <div className="fixed bottom-0 mb-4 text-white">
+      <div className="mb-8 text-white ">
         <div className="flex ml-10 text-center">
           <Link href="https://github.com/chrismcconn2789/">
             <AiFillGithub size={30} className="mx-2 cursor-pointer" />

@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const Weather = ({ data }) => {
   return (
-    <div className="flex flex-col max-w-[450px] w-full h-auto m-auto p-4 text-gray-300">
+    <div className="flex flex-col max-w-[450px] w-full h-max m-auto p-4 text-gray-300">
       <div className="flex justify-between pt-12">
         <div className="flex flex-col items-center">
           <Image

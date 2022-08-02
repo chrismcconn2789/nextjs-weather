@@ -29,7 +29,7 @@ export default function Home() {
     return <Spinner />;
   } else {
     return (
-      <div className="flex items-center justify-center">
+      <div className="flex flex-col items-center justify-center">
         <Head>
           <title>Next.js Weather App</title>
           <meta name="a local weather info app" />
@@ -67,7 +67,7 @@ export default function Home() {
 
           {weather.main && <Weather data={weather} />}
         </div>
-        <div className="fixed bottom-0 mb-14 text-lg text-[#8B939C]">
+        <div className="flex mt-8 mb-4 text-lg text-[#8B939C]">
           <Footer />
         </div>
       </div>
